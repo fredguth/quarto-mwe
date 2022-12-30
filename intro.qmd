@@ -3,3 +3,23 @@
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
+
+::: {.content-hidden unless-format="html"}
+
+
+# Hidden in PDF {.unnumbered .unlisted}
+
+ Hidden in pdf as expected.
+ See there is no `hidden in html section bellow`.
+
+:::
+
+::: {.content-hidden unless-format="pdf"}
+
+<!-- Q:  Why is this appearing on PDF? -->
+# Hidden in html
+
+ Hidden in html as expected.
+See there is no `hidden in pdf section above`.
+
+:::
