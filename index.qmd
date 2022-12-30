@@ -1,0 +1,10 @@
+
+::: {.content-hidden unless-format="html"}
+
+<!-- Q:  Why is this appearing on PDF? -->
+# Welcome {.unnumbered .unlisted}
+
+ This is the website companion for a book.
+
+
+:::
