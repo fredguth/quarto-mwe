@@ -22,3 +22,5 @@ In summary, this book has no content whatsoever.
 $\lang= <\Sigma, \Phi>$ 
 
 @fig-elephant
+
+See https://github.com/quarto-dev/quarto-cli/discussions/3839
