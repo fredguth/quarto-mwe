@@ -8,3 +8,15 @@
 
 
 :::
+
+::: {.content-hidden when-format="pdf"}
+
+<!-- Q:  Why is this appearing on PDF? -->
+# Bem-vindos {.unnumbered .unlisted}
+
+ Should not appear in pdf.
+
+
+:::
+
+See: https://github.com/quarto-dev/quarto-cli/discussions/3806

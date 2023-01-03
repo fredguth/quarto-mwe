@@ -4,10 +4,15 @@ This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
 
+::: {.content-hidden}
+$$
+{{< include _math_commands.tex >}}
+$$
+:::
+
 ::: {.content-hidden unless-format="html"}
 
-
-# Hidden in PDF {.unnumbered .unlisted}
+## Hidden in PDF {.unnumbered .unlisted}
 
  Hidden in pdf as expected.
  See there is no `hidden in html section bellow`.
@@ -17,9 +22,36 @@ See @knuth84 for additional discussion of literate programming.
 ::: {.content-hidden unless-format="pdf"}
 
 <!-- Q:  Why is this appearing on PDF? -->
-# Hidden in html
+## Hidden in html
 
  Hidden in html as expected.
 See there is no `hidden in pdf section above`.
 
 :::
+
+
+
+::: {.content-hidden unless-format="html" .column-body #sec-blind-men}
+</BR>
+</BR>
+
+![The Blind Men and the Elephant.](/Images/elephant-colored.png){#fig-elephant}
+
+:::
+
+::: {.content-hidden unless-format="pdf"}
+{{< pagebreak >}} 
+\vspace{2cm}
+
+::: {.column-body #fig-elephant}
+
+![](/Images/elephant.pdf)
+
+The Blind Men and the Elephant.
+
+:::
+
+:::
+
+$\lang= <\Sigma, \Phi>$ 
+@fig-elephant

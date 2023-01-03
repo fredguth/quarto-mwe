@@ -1,3 +1,24 @@
+::: {.content-hidden}
+$$
+{{< include _math_commands.tex >}}
+$$
+
+:::
+
 # Summary
 
 In summary, this book has no content whatsoever.
+
+
+::: {.content-hidden unless-format="html"}
+
+## Hidden in PDF {.unnumbered .unlisted}
+
+ Hidden in pdf as expected.
+ See there is no `hidden in html section bellow`.
+
+:::
+
+$\lang= <\Sigma, \Phi>$ 
+
+@fig-elephant
